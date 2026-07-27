@@ -82,11 +82,11 @@ Shows the performance of all trained models across R², Cross-Validation R², MA
 
 ---
 
-### Actual vs Predicted Prices
+### Prediction VS Actual
 
-Comparison between the predicted and actual house prices for each model.
+Scatter plots comparing the predicted and actual house prices for each model. A closer alignment to the diagonal line indicates better predictive performance.
 
-![Prediction Scatter](Figures/predictions.png)
+![EDA](Figures/prediction_vs_actual.png)
 
 ---
 
@@ -106,11 +106,6 @@ The most influential features used by the best-performing Gradient Boosting mode
 
 ---
 
-### Prediction VS Actual
-
-Scatter plots comparing the predicted and actual house prices for each model. A closer alignment to the diagonal line indicates better predictive performance.
-
-![EDA](Figures/prediction_vs_actual.png)
 ## Project structure
 
 ```
