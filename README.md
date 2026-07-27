@@ -77,7 +77,8 @@ Central Air_Y        0.020560
 
 ### Model Comparison
 Shows the performance of all trained models across R², Cross-Validation R², MAE, and RMSE.
-![Model Comparison](images/results.png)
+
+![Model Comparison](Figures/results.png)
 
 ---
 
@@ -85,7 +86,7 @@ Shows the performance of all trained models across R², Cross-Validation R², MA
 
 Comparison between the predicted and actual house prices for each model.
 
-![Prediction Scatter](images/predictions.png)
+![Prediction Scatter](Figures/predictions.png)
 
 ---
 
@@ -93,7 +94,7 @@ Comparison between the predicted and actual house prices for each model.
 
 Correlation matrix of the numerical features after preprocessing.
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](Figures/correlation_heatmap.png)
 
 ---
 
@@ -101,7 +102,7 @@ Correlation matrix of the numerical features after preprocessing.
 
 The most influential features used by the best-performing Gradient Boosting model.
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](Figures/feature_importance.png)
 
 ---
 
@@ -109,7 +110,7 @@ The most influential features used by the best-performing Gradient Boosting mode
 
 Scatter plots comparing the predicted and actual house prices for each model. A closer alignment to the diagonal line indicates better predictive performance.
 
-![EDA](images/prediction_vs_actual.png)
+![EDA](Figures/prediction_vs_actual.png)
 ## Project structure
 
 ```
@@ -118,7 +119,7 @@ Scatter plots comparing the predicted and actual house prices for each model. A 
 ├── main.py                 # pipeline: load → clean → engineer → encode → train → evaluate
 ├── requirements.txt
 └── README.md
-└── figures
+└── Figures
     ├── feature_importance.png
     ├── model_comparison.png
     ├── prediction_vs_actual.png
