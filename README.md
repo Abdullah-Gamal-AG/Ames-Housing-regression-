@@ -15,7 +15,7 @@ Predicting [target variable, e.g. sale price] using the [dataset name, e.g. Ames
 
 | | |
 |---|---|
-| Rows | [2030] |
+| Rows | [2930] |
 | Features (raw) | [80] |
 | Features (after encoding) | [258] |
 | Missing data | [6.5]% before imputation |
