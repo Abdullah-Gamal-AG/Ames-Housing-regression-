@@ -90,6 +90,14 @@ Scatter plots comparing the predicted and actual house prices for each model. A 
 
 ---
 
+### Missing values
+
+Shows the Missing values of all trained dataset.
+
+![EDA](Figures/missing_values.png)
+
+---
+
 ### Correlation Heatmap
 
 Correlation matrix of the numerical features after preprocessing.
